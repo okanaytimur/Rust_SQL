@@ -33,7 +33,7 @@ let mut seti = connection
     .unwrap();
 
 
-//Girilen verileri SQL kodunda birleştirmek
+//Girilen verileri SQL kodunda birlestirmek
 seti.bind(1, &*k_adi).unwrap();
 seti.bind(2,&*yas).unwrap();
 //SQL kodunun işletilmesi
